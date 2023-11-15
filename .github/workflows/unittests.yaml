@@ -8,7 +8,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
+<<<<<<< HEAD
           python-version: 3.13.0-alpha.1
+=======
+          python-version: 3.10.0
+>>>>>>> 1d1d759db8e66e4128d8603bb269cdefd0def0a8
           architecture: x64
       - name: Install dependencies
         run: pip install -r requirements.txt 
